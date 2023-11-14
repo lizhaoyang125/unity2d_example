@@ -10,15 +10,23 @@ public class Talk : MonoBehaviour
     {
         if (col.gameObject.name == "Player")
         {
-            TalkUI.SetActive(true);
-            DialogManager.Instance.ShowDialogRow();//显示对话
+            if (DialogManager.Instance.excelNPCName == gameObject.name)
+            {
+                TalkUI.SetActive(true);
+                DialogManager.Instance.currentNPCName = gameObject.name;
+                DialogManager.Instance.ShowDialogRow();//显示对话
+            }
         }
     }
     private void OnTriggerExit2D(Collider2D col)
     {
         if (col.gameObject.name == "Player")
         {
-            TalkUI.SetActive(false);
+            //if TalkUI is active, set it to false
+            if (TalkUI.activeSelf)
+            {
+                TalkUI.SetActive(false);
+            }
         }
 
     }
