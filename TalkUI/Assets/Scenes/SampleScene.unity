@@ -253,7 +253,6 @@ MonoBehaviour:
   talkUI: {fileID: 44068727}
   optionButtionPrefab: {fileID: 911863723134801861, guid: 04e089e8f2d01384f849249ede5dd237, type: 3}
   ButtonGroup: {fileID: 888479731}
-  textspeed: 0.1
 --- !u!4 &274594062
 Transform:
   m_ObjectHideFlags: 0
