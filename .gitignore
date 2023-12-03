@@ -4,3 +4,9 @@ TalkUI/Library/*
 TalkUI/Logs/*
 TalkUI/Temp/*
 TalkUI/obj/*
+ShootGame/Library/AnnotationManager
+ShootGame/Library/*
+ShootGame/Logs/*
+ShootGame/Temp/*
+ShootGame/Assets/HeroEditor4D/*
+ShootGame/Assets/ModularGameUIKit/*
