@@ -3,7 +3,12 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - AUG
+  - AR-CL
+  - M134
+  - Goblin
+  - Bullet
   layers:
   - Default
   - TransparentFX

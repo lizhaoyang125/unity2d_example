@@ -5,7 +5,7 @@ using UnityEngine;
 public class MainCamera : MonoBehaviour
 {
     public Transform target; // The target object for the camera to follow
-    public float yOffset = 10f; // The vertical offset of the camera
+    public float yOffset = 3f; // The vertical offset of the camera
 
     // Update is called once per frame
     void Update()
