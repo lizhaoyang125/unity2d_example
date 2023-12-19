@@ -112,6 +112,7 @@
     <Compile Include="Assets\HeroEditor4D\Common\Scripts\EditorScripts\CaptureOptions.cs" />
     <Compile Include="Assets\HeroEditor4D\Common\Scripts\CharacterScripts\SpriteMapping.cs" />
     <Compile Include="Assets\HeroEditor4D\InventorySystem\Scripts\Enums\ItemMaterial.cs" />
+    <Compile Include="Assets\Scripts\Dxp\Dxp.cs" />
     <Compile Include="Assets\HeroEditor4D\InventorySystem\Scripts\Helpers\SetupResolver.cs" />
     <Compile Include="Assets\HeroEditor4D\Common\Scripts\ExampleScripts\ControlsExample.cs" />
     <Compile Include="Assets\HeroEditor4D\Common\Scripts\ExampleScripts\InventoryExample.cs" />
